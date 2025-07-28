@@ -1,0 +1,405 @@
+2025-07-28 20:46:11,252 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-28 20:46:11,253 - root - INFO - Logfile configured
+2025-07-28 20:46:11,253 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-28 20:46:11,254 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-28 20:46:11,254 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-28 20:46:11,254 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-28 20:46:11,254 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-28 20:46:11,255 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 5 ...
+2025-07-28 20:46:11,286 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-28 20:46:11,288 - freqtrade.configuration.directory_operations - INFO - Created data directory: None
+2025-07-28 20:46:11,288 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-28 20:46:11,290 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-28 20:46:11,300 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-28 20:46:11,300 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-28 20:46:11,322 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy SampleStrategy from '/freqtrade/user_data/strategies/sample_strategy.py'...
+2025-07-28 20:46:11,322 - freqtrade.strategy.hyper - INFO - Found no parameter file.
+2025-07-28 20:46:11,323 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-28 20:46:11,323 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: unlimited.
+2025-07-28 20:46:11,323 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'unfilledtimeout' with value in config file: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}.
+2025-07-28 20:46:11,324 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 5.
+2025-07-28 20:46:11,324 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'60': 0.01, '30': 0.02, '0': 0.04}
+2025-07-28 20:46:11,325 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-28 20:46:11,325 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-28 20:46:11,325 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-28 20:46:11,326 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-28 20:46:11,326 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-28 20:46:11,326 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-28 20:46:11,327 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-28 20:46:11,327 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'market', 'stoploss_on_exchange': False}
+2025-07-28 20:46:11,327 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-28 20:46:11,328 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-28 20:46:11,328 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: unlimited
+2025-07-28 20:46:11,328 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 200
+2025-07-28 20:46:11,329 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using unfilledtimeout: {'entry': 10, 'exit': 10, 'exit_timeout_count': 0, 'unit': 'minutes'}
+2025-07-28 20:46:11,329 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-28 20:46:11,329 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-28 20:46:11,330 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-28 20:46:11,330 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-28 20:46:11,330 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-28 20:46:11,330 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-28 20:46:11,331 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-28 20:46:11,331 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-28 20:46:11,331 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 5
+2025-07-28 20:46:11,332 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-28 20:46:11,334 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-07-28 20:46:11,335 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.91
+2025-07-28 20:46:11,363 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2025-07-28 20:46:13,386 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2025-07-28 20:46:13,678 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 20:46:13,909 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.telegram ...
+2025-07-28 20:46:14,108 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-07-28 20:46:14,288 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-07-28 20:46:14,289 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-07-28 20:46:14,320 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist VolumePairList from '/freqtrade/freqtrade/plugins/pairlist/VolumePairList.py'...
+2025-07-28 20:46:14,321 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-07-28 20:46:14,783 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2025-07-28 20:46:14,808 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['ETH/USDT', 'BTC/USDT', 'USDC/USDT', 'SOL/USDT', 'XRP/USDT', 'ERA/USDT', 'DOGE/USDT', 'FDUSD/USDT', 'SUI/USDT', 'ENA/USDT', 'BONK/USDT', 'PEPE/USDT', 'PENGU/USDT', 'TRX/USDT', 'OP/USDT', 'ADA/USDT', 'AVAX/USDT', 'BANANAS31/USDT', 'CAKE/USDT', 'HBAR/USDT']
+2025-07-28 20:46:14,809 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.49s
+2025-07-28 20:46:14,810 - freqtrade.strategy.hyper - INFO - No params for buy found, using default values.
+2025-07-28 20:46:14,811 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): buy_rsi = 30
+2025-07-28 20:46:14,811 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): exit_short_rsi = 30
+2025-07-28 20:46:14,812 - freqtrade.strategy.hyper - INFO - No params for sell found, using default values.
+2025-07-28 20:46:14,812 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): sell_rsi = 70
+2025-07-28 20:46:14,812 - freqtrade.strategy.hyper - INFO - Strategy Parameter(default): short_rsi = 70
+2025-07-28 20:46:14,812 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-07-28 20:46:14,813 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-07-28 20:46:14,813 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-07-28 20:46:14,814 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-07-28 20:46:14,840 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-07-28 20:46:14,841 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `unlimited USDT`\n*Minimum ROI:* `{'60': 0.01, '30': 0.02, '0': 0.04}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `SampleStrategy`"}
+2025-07-28 20:46:14,842 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'VolumePairList': 'VolumePairList - top 20 volume pairs.'}]"}
+2025-07-28 20:46:19,880 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:47:19,985 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:48:20,105 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:49:20,212 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:50:01,013 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T20:50:00 > 2025-07-28T20:49:59.989). This usually suggests a problem with time synchronization.
+2025-07-28 20:50:01,014 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T20:50:00 > 2025-07-28T20:49:59.989). This usually suggests a problem with time synchronization.
+2025-07-28 20:50:21,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:51:21,169 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:51:43,283 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(f3327fd6, ('172.18.0.1', 56360))
+2025-07-28 20:51:43,299 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(41471906, ('172.18.0.1', 56364))
+2025-07-28 20:51:43,330 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(e221d869, ('172.18.0.1', 56372))
+2025-07-28 20:52:21,286 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:53:21,399 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:54:21,515 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:55:01,012 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T20:55:00 > 2025-07-28T20:54:59.982). This usually suggests a problem with time synchronization.
+2025-07-28 20:55:01,014 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T20:55:00 > 2025-07-28T20:54:59.982). This usually suggests a problem with time synchronization.
+2025-07-28 20:55:01,570 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 20:55:01,996 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for OP/USDT with stake_amount: 198.0 and price: 0.765 ...
+2025-07-28 20:55:02,180 - freqtrade.freqtradebot - INFO - Order dry_run_buy_OP/USDT_1753736101.999836 was created for OP/USDT and status is open.
+2025-07-28 20:55:02,211 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 20:55:02,211 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'OP/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.765, 'open_rate': 0.765, 'order_type': 'limit', 'stake_amount': 198.0, 'stake_currency': 'USDT', 'base_currency': 'OP', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 258.82, 'open_date': datetime.datetime(2025, 7, 28, 20, 55, 2, 181614, tzinfo=datetime.timezone.utc), 'current_rate': 0.765, 'sub_trade': False}
+2025-07-28 20:55:06,220 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:11,209 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:16,250 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:21,278 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:26,059 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:55:26,272 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:31,290 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:36,258 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:41,268 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:46,264 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:51,332 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:55:56,331 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:01,318 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:06,326 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:11,351 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:16,327 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:21,379 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:26,177 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:56:26,386 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:31,375 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:36,388 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:41,393 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:46,661 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:51,449 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:56:56,727 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:01,434 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:06,452 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:11,439 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:16,437 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:21,497 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:26,297 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:57:26,509 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-28 20:57:26,529 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=1, pair=OP/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02) [buy]: 0.1979973 USDT - rate: 0.001
+2025-07-28 20:57:26,530 - freqtrade.persistence.trade_model - INFO - Updating trade (id=1) ...
+2025-07-28 20:57:26,531 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=1, pair=OP/USDT, amount=258.82000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02).
+2025-07-28 20:57:26,544 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 20:57:26,546 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 1, 'type': entry_fill, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'OP/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.765, 'open_rate': 0.765, 'order_type': 'limit', 'stake_amount': 197.9973, 'stake_currency': 'USDT', 'base_currency': 'OP', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 258.82, 'open_date': datetime.datetime(2025, 7, 28, 20, 55, 2, 181614, tzinfo=datetime.timezone.utc), 'current_rate': 0.765, 'sub_trade': False}
+2025-07-28 20:57:26,548 - freqtrade.rpc.telegram - INFO - Notification 'entry_fill' not sent.
+2025-07-28 20:58:26,418 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 20:59:26,539 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:00:31,060 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:01:31,185 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:02:31,307 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:03:31,431 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:04:31,556 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:05:01,012 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:05:00 > 2025-07-28T21:04:59.990). This usually suggests a problem with time synchronization.
+2025-07-28 21:05:01,013 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:05:00 > 2025-07-28T21:04:59.990). This usually suggests a problem with time synchronization.
+2025-07-28 21:05:36,078 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:06:36,220 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:07:36,343 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:08:36,473 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:09:36,613 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:10:01,011 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:10:00 > 2025-07-28T21:09:59.996). This usually suggests a problem with time synchronization.
+2025-07-28 21:10:01,013 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:10:00 > 2025-07-28T21:09:59.996). This usually suggests a problem with time synchronization.
+2025-07-28 21:10:41,063 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:11:41,194 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:12:41,321 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:13:41,459 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:14:41,588 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:15:01,012 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:15:00 > 2025-07-28T21:14:59.994). This usually suggests a problem with time synchronization.
+2025-07-28 21:15:46,065 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:16:46,201 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:17:46,357 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:18:46,491 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:19:46,627 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:20:01,011 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:20:00 > 2025-07-28T21:19:59.992). This usually suggests a problem with time synchronization.
+2025-07-28 21:20:01,013 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:20:00 > 2025-07-28T21:19:59.992). This usually suggests a problem with time synchronization.
+2025-07-28 21:20:51,067 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:21:51,207 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:22:51,338 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:23:51,477 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:24:51,612 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:25:01,012 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:25:00 > 2025-07-28T21:24:59.991). This usually suggests a problem with time synchronization.
+2025-07-28 21:25:01,014 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:25:00 > 2025-07-28T21:24:59.991). This usually suggests a problem with time synchronization.
+2025-07-28 21:25:56,140 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:26:56,288 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:27:56,439 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:28:56,599 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:29:56,739 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:30:01,695 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 21:30:01,870 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for ERA/USDT with stake_amount: 198.0 and price: 1.274 ...
+2025-07-28 21:30:02,043 - freqtrade.freqtradebot - INFO - Order dry_run_buy_ERA/USDT_1753738201.871326 was created for ERA/USDT and status is open.
+2025-07-28 21:30:02,058 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 21:30:02,059 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': entry, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'ERA/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 1.274, 'open_rate': 1.274, 'order_type': 'limit', 'stake_amount': 198.0, 'stake_currency': 'USDT', 'base_currency': 'ERA', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 155.4, 'open_date': datetime.datetime(2025, 7, 28, 21, 30, 2, 43782, tzinfo=datetime.timezone.utc), 'current_rate': 1.274, 'sub_trade': False}
+2025-07-28 21:30:06,203 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=2, pair=ERA/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=1.27400000, open_since=2025-07-28 21:30:02)
+2025-07-28 21:30:06,304 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=2, pair=ERA/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=1.27400000, open_since=2025-07-28 21:30:02) [buy]: 0.1979796 USDT - rate: 0.001
+2025-07-28 21:30:06,305 - freqtrade.persistence.trade_model - INFO - Updating trade (id=2) ...
+2025-07-28 21:30:06,305 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=2, pair=ERA/USDT, amount=155.40000000, is_short=False, leverage=1.0, open_rate=1.27400000, open_since=2025-07-28 21:30:02).
+2025-07-28 21:30:06,316 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 21:30:06,318 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 2, 'type': entry_fill, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'ERA/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 1.274, 'open_rate': 1.274, 'order_type': 'limit', 'stake_amount': 197.9796, 'stake_currency': 'USDT', 'base_currency': 'ERA', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 155.4, 'open_date': datetime.datetime(2025, 7, 28, 21, 30, 2, 43782, tzinfo=datetime.timezone.utc), 'current_rate': 1.274, 'sub_trade': False}
+2025-07-28 21:30:06,318 - freqtrade.rpc.telegram - INFO - Notification 'entry_fill' not sent.
+2025-07-28 21:31:01,136 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:32:01,277 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:33:01,419 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:34:01,562 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:35:01,012 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:35:00 > 2025-07-28T21:34:59.976). This usually suggests a problem with time synchronization.
+2025-07-28 21:35:01,014 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:35:00 > 2025-07-28T21:34:59.975). This usually suggests a problem with time synchronization.
+2025-07-28 21:35:06,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:36:06,143 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:37:06,284 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:38:06,426 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:39:06,497 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:40:01,012 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:40:00 > 2025-07-28T21:39:59.966). This usually suggests a problem with time synchronization.
+2025-07-28 21:40:01,014 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:40:00 > 2025-07-28T21:39:59.965). This usually suggests a problem with time synchronization.
+2025-07-28 21:40:11,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:41:11,005 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:42:11,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:43:11,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:44:11,151 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:45:01,081 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:45:00 > 2025-07-28T21:44:59.990). This usually suggests a problem with time synchronization.
+2025-07-28 21:45:01,083 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:45:00 > 2025-07-28T21:44:59.989). This usually suggests a problem with time synchronization.
+2025-07-28 21:45:16,070 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:46:16,209 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:46:26,861 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2025-07-28 21:46:26,959 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['ETH/USDT', 'BTC/USDT', 'USDC/USDT', 'SOL/USDT', 'XRP/USDT', 'ERA/USDT', 'DOGE/USDT', 'SUI/USDT', 'FDUSD/USDT', 'ENA/USDT', 'BONK/USDT', 'PEPE/USDT', 'TRX/USDT', 'PENGU/USDT', 'OP/USDT', 'ADA/USDT', 'AVAX/USDT', 'BANANAS31/USDT', 'CAKE/USDT', 'HBAR/USDT']
+2025-07-28 21:47:16,284 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:48:16,626 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:49:16,766 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:50:01,083 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:50:00 > 2025-07-28T21:49:59.975). This usually suggests a problem with time synchronization.
+2025-07-28 21:50:01,084 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:50:00 > 2025-07-28T21:49:59.975). This usually suggests a problem with time synchronization.
+2025-07-28 21:50:21,067 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:51:21,208 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:52:21,346 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:53:21,487 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:54:21,630 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:55:01,083 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T21:55:00 > 2025-07-28T21:54:59.975). This usually suggests a problem with time synchronization.
+2025-07-28 21:55:01,086 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T21:55:00 > 2025-07-28T21:54:59.968). This usually suggests a problem with time synchronization.
+2025-07-28 21:55:26,070 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:56:26,211 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:57:26,352 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:58:26,493 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 21:59:26,636 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:00:01,084 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:00:00 > 2025-07-28T21:59:59.964). This usually suggests a problem with time synchronization.
+2025-07-28 22:00:01,086 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:00:00 > 2025-07-28T21:59:59.964). This usually suggests a problem with time synchronization.
+2025-07-28 22:00:31,142 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:01:31,285 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:02:31,434 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:03:31,577 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:04:31,724 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:05:01,090 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:05:00 > 2025-07-28T22:04:59.946). This usually suggests a problem with time synchronization.
+2025-07-28 22:05:01,092 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:05:00 > 2025-07-28T22:04:59.943). This usually suggests a problem with time synchronization.
+2025-07-28 22:05:36,147 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:06:36,295 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:07:36,442 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:08:36,590 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:09:36,738 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:10:01,083 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:10:00 > 2025-07-28T22:09:59.880). This usually suggests a problem with time synchronization.
+2025-07-28 22:10:01,085 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:10:00 > 2025-07-28T22:09:59.879). This usually suggests a problem with time synchronization.
+2025-07-28 22:10:01,087 - freqtrade.exchange.exchange_ws - WARNING - OP/USDT, 5m - Candle date > last refresh (2025-07-28T22:10:00 > 2025-07-28T22:09:59.956). This usually suggests a problem with time synchronization.
+2025-07-28 22:10:41,141 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:11:41,284 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:12:41,430 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:13:41,576 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:14:41,719 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:15:01,089 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:15:00 > 2025-07-28T22:14:59.896). This usually suggests a problem with time synchronization.
+2025-07-28 22:15:01,091 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:15:00 > 2025-07-28T22:14:59.896). This usually suggests a problem with time synchronization.
+2025-07-28 22:15:01,093 - freqtrade.exchange.exchange_ws - WARNING - OP/USDT, 5m - Candle date > last refresh (2025-07-28T22:15:00 > 2025-07-28T22:14:59.977). This usually suggests a problem with time synchronization.
+2025-07-28 22:15:46,146 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:16:46,289 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:17:46,292 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:18:46,296 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:19:46,298 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:20:01,013 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:20:00 > 2025-07-28T22:19:59.890). This usually suggests a problem with time synchronization.
+2025-07-28 22:20:01,015 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:20:00 > 2025-07-28T22:19:59.890). This usually suggests a problem with time synchronization.
+2025-07-28 22:20:01,017 - freqtrade.exchange.exchange_ws - WARNING - OP/USDT, 5m - Candle date > last refresh (2025-07-28T22:20:00 > 2025-07-28T22:19:59.969). This usually suggests a problem with time synchronization.
+2025-07-28 22:20:51,075 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:21:51,223 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:22:51,395 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:23:51,541 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:24:51,687 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:25:01,014 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:25:00 > 2025-07-28T22:24:59.898). This usually suggests a problem with time synchronization.
+2025-07-28 22:25:01,015 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:25:00 > 2025-07-28T22:24:59.897). This usually suggests a problem with time synchronization.
+2025-07-28 22:25:01,018 - freqtrade.exchange.exchange_ws - WARNING - OP/USDT, 5m - Candle date > last refresh (2025-07-28T22:25:00 > 2025-07-28T22:24:59.984). This usually suggests a problem with time synchronization.
+2025-07-28 22:25:56,154 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:26:56,299 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:27:56,447 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:28:56,594 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:29:56,739 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:30:01,014 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:30:00 > 2025-07-28T22:29:59.930). This usually suggests a problem with time synchronization.
+2025-07-28 22:30:01,015 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:30:00 > 2025-07-28T22:29:59.929). This usually suggests a problem with time synchronization.
+2025-07-28 22:31:01,150 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:32:01,303 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:33:01,455 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:34:01,607 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:35:01,014 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:35:00 > 2025-07-28T22:34:59.916). This usually suggests a problem with time synchronization.
+2025-07-28 22:35:01,016 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:35:00 > 2025-07-28T22:34:59.913). This usually suggests a problem with time synchronization.
+2025-07-28 22:35:01,018 - freqtrade.exchange.exchange_ws - WARNING - OP/USDT, 5m - Candle date > last refresh (2025-07-28T22:35:00 > 2025-07-28T22:34:59.986). This usually suggests a problem with time synchronization.
+2025-07-28 22:35:06,072 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:36:06,238 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:37:06,399 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:38:06,547 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:39:06,701 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:40:01,014 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:40:00 > 2025-07-28T22:39:59.920). This usually suggests a problem with time synchronization.
+2025-07-28 22:40:01,016 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:40:00 > 2025-07-28T22:39:59.914). This usually suggests a problem with time synchronization.
+2025-07-28 22:40:01,018 - freqtrade.exchange.exchange_ws - WARNING - OP/USDT, 5m - Candle date > last refresh (2025-07-28T22:40:00 > 2025-07-28T22:39:59.985). This usually suggests a problem with time synchronization.
+2025-07-28 22:40:11,074 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:41:11,224 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:42:11,372 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:43:11,520 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:44:11,668 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:45:01,014 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:45:00 > 2025-07-28T22:44:59.929). This usually suggests a problem with time synchronization.
+2025-07-28 22:45:01,015 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:45:00 > 2025-07-28T22:44:59.920). This usually suggests a problem with time synchronization.
+2025-07-28 22:45:16,078 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:46:16,231 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:46:36,801 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2025-07-28 22:46:36,828 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['ETH/USDT', 'BTC/USDT', 'USDC/USDT', 'SOL/USDT', 'XRP/USDT', 'ERA/USDT', 'DOGE/USDT', 'SUI/USDT', 'FDUSD/USDT', 'ENA/USDT', 'BONK/USDT', 'PEPE/USDT', 'TRX/USDT', 'PENGU/USDT', 'OP/USDT', 'ADA/USDT', 'AVAX/USDT', 'BANANAS31/USDT', 'CAKE/USDT', 'HBAR/USDT']
+2025-07-28 22:47:16,380 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:48:16,627 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:49:16,776 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:50:01,017 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:50:00 > 2025-07-28T22:49:59.928). This usually suggests a problem with time synchronization.
+2025-07-28 22:50:01,019 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:50:00 > 2025-07-28T22:49:59.928). This usually suggests a problem with time synchronization.
+2025-07-28 22:50:21,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:51:21,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:52:21,081 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:53:21,229 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:54:21,376 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:55:01,016 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T22:55:00 > 2025-07-28T22:54:59.924). This usually suggests a problem with time synchronization.
+2025-07-28 22:55:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T22:55:00 > 2025-07-28T22:54:59.924). This usually suggests a problem with time synchronization.
+2025-07-28 22:55:02,006 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 22:55:02,191 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for TRX/USDT with stake_amount: 198.0 and price: 0.3207 ...
+2025-07-28 22:55:02,623 - freqtrade.freqtradebot - INFO - Order dry_run_buy_TRX/USDT_1753743302.192552 was created for TRX/USDT and status is open.
+2025-07-28 22:55:02,641 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 22:55:02,641 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 3, 'type': entry, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'TRX/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.3207, 'open_rate': 0.3207, 'order_type': 'limit', 'stake_amount': 198.0, 'stake_currency': 'USDT', 'base_currency': 'TRX', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 617.3, 'open_date': datetime.datetime(2025, 7, 28, 22, 55, 2, 624467, tzinfo=datetime.timezone.utc), 'current_rate': 0.3207, 'sub_trade': False}
+2025-07-28 22:55:06,210 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:11,282 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:16,282 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:21,285 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:26,072 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:55:26,267 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:31,280 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:36,282 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:41,286 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-28 22:55:41,296 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=3, pair=TRX/USDT, amount=0.00000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02) [buy]: 0.19796811 USDT - rate: 0.001
+2025-07-28 22:55:41,296 - freqtrade.persistence.trade_model - INFO - Updating trade (id=3) ...
+2025-07-28 22:55:41,297 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02).
+2025-07-28 22:55:41,309 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 22:55:41,311 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 3, 'type': entry_fill, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'TRX/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 0.3207, 'open_rate': 0.3207, 'order_type': 'limit', 'stake_amount': 197.96811, 'stake_currency': 'USDT', 'base_currency': 'TRX', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 617.3, 'open_date': datetime.datetime(2025, 7, 28, 22, 55, 2, 624467, tzinfo=datetime.timezone.utc), 'current_rate': 0.3207, 'sub_trade': False}
+2025-07-28 22:55:41,312 - freqtrade.rpc.telegram - INFO - Notification 'entry_fill' not sent.
+2025-07-28 22:56:26,146 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:57:26,295 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:58:26,451 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 22:59:26,598 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:00:01,015 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:00:00 > 2025-07-28T22:59:59.966). This usually suggests a problem with time synchronization.
+2025-07-28 23:00:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:00:00 > 2025-07-28T22:59:59.961). This usually suggests a problem with time synchronization.
+2025-07-28 23:00:02,184 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 23:00:02,634 - freqtrade.freqtradebot - INFO - Long signal found: about create a new trade for BONK/USDT with stake_amount: 198.0 and price: 3.218e-05 ...
+2025-07-28 23:00:02,887 - freqtrade.freqtradebot - INFO - Order dry_run_buy_BONK/USDT_1753743602.635801 was created for BONK/USDT and status is closed.
+2025-07-28 23:00:02,900 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 23:00:02,901 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 4, 'type': entry, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'BONK/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 3.218e-05, 'open_rate': 3.218e-05, 'order_type': 'limit', 'stake_amount': 197.99996802, 'stake_currency': 'USDT', 'base_currency': 'BONK', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 6152889.0, 'open_date': datetime.datetime(2025, 7, 28, 23, 0, 2, 888367, tzinfo=datetime.timezone.utc), 'current_rate': 3.218e-05, 'sub_trade': False}
+2025-07-28 23:00:02,902 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02)
+2025-07-28 23:00:02,911 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02) [buy]: 0.19799997 USDT - rate: 0.001
+2025-07-28 23:00:02,912 - freqtrade.persistence.trade_model - INFO - Updating trade (id=4) ...
+2025-07-28 23:00:02,912 - freqtrade.persistence.trade_model - INFO - LIMIT_BUY has been fulfilled for Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02).
+2025-07-28 23:00:02,925 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-28 23:00:02,927 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'trade_id': 4, 'type': entry_fill, 'buy_tag': '', 'enter_tag': '', 'exchange': 'Binance', 'pair': 'BONK/USDT', 'leverage': 1.0, 'direction': 'Long', 'limit': 3.218e-05, 'open_rate': 3.218e-05, 'order_type': 'limit', 'stake_amount': 197.99996802, 'stake_currency': 'USDT', 'base_currency': 'BONK', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'amount': 6152889.0, 'open_date': datetime.datetime(2025, 7, 28, 23, 0, 2, 888367, tzinfo=datetime.timezone.utc), 'current_rate': 3.218e-05, 'sub_trade': False}
+2025-07-28 23:00:02,928 - freqtrade.rpc.telegram - INFO - Notification 'entry_fill' not sent.
+2025-07-28 23:00:31,076 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:01:31,224 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:02:31,380 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:03:31,543 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:04:31,693 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:05:01,016 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:05:00 > 2025-07-28T23:04:59.934). This usually suggests a problem with time synchronization.
+2025-07-28 23:05:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:05:00 > 2025-07-28T23:04:59.933). This usually suggests a problem with time synchronization.
+2025-07-28 23:05:36,073 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:06:36,220 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:07:36,374 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:08:36,546 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:09:36,694 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:10:01,016 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:10:00 > 2025-07-28T23:09:59.961). This usually suggests a problem with time synchronization.
+2025-07-28 23:10:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:10:00 > 2025-07-28T23:09:59.961). This usually suggests a problem with time synchronization.
+2025-07-28 23:10:41,156 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:11:41,313 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:12:41,466 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:13:41,619 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:14:41,768 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:15:01,015 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:15:00 > 2025-07-28T23:14:59.957). This usually suggests a problem with time synchronization.
+2025-07-28 23:15:01,017 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:15:00 > 2025-07-28T23:14:59.952). This usually suggests a problem with time synchronization.
+2025-07-28 23:15:46,145 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:16:41,757 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 20 pairs: ['ETH/USDT', 'USDC/USDT', 'BTC/USDT', 'SOL/USDT', 'XRP/USDT', 'ERA/USDT', 'DOGE/USDT', 'SUI/USDT', 'FDUSD/USDT', 'ENA/USDT', 'BONK/USDT', 'TRX/USDT', 'PEPE/USDT', 'PENGU/USDT', 'OP/USDT', 'ADA/USDT', 'AVAX/USDT', 'BANANAS31/USDT', 'CAKE/USDT', 'HBAR/USDT']
+2025-07-28 23:16:46,293 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:17:46,437 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:18:46,584 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:19:46,738 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:20:01,014 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:20:00 > 2025-07-28T23:19:59.950). This usually suggests a problem with time synchronization.
+2025-07-28 23:20:01,017 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:20:00 > 2025-07-28T23:19:59.948). This usually suggests a problem with time synchronization.
+2025-07-28 23:20:51,145 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:21:51,292 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:22:51,439 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:23:51,588 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:24:51,733 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:25:01,017 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:25:00 > 2025-07-28T23:24:59.950). This usually suggests a problem with time synchronization.
+2025-07-28 23:25:01,019 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:25:00 > 2025-07-28T23:24:59.949). This usually suggests a problem with time synchronization.
+2025-07-28 23:25:56,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:26:56,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:27:56,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:28:56,022 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:29:56,097 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:30:01,019 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:30:00 > 2025-07-28T23:29:59.968). This usually suggests a problem with time synchronization.
+2025-07-28 23:30:01,021 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:30:00 > 2025-07-28T23:29:59.968). This usually suggests a problem with time synchronization.
+2025-07-28 23:30:56,148 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:31:56,298 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:32:56,446 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:33:56,591 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:34:56,740 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:35:01,015 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:35:00 > 2025-07-28T23:34:59.975). This usually suggests a problem with time synchronization.
+2025-07-28 23:35:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:35:00 > 2025-07-28T23:34:59.970). This usually suggests a problem with time synchronization.
+2025-07-28 23:36:01,147 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:37:01,294 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:38:01,440 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:39:01,589 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:40:01,015 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:40:00 > 2025-07-28T23:39:59.962). This usually suggests a problem with time synchronization.
+2025-07-28 23:40:01,017 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:40:00 > 2025-07-28T23:39:59.961). This usually suggests a problem with time synchronization.
+2025-07-28 23:40:06,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
