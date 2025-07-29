@@ -1,0 +1,33 @@
+{
+  "strategy_name": "momentum_crossover_v3_strategy",
+  "params": {
+    "roi": {
+      "0": 0.04,
+      "30": 0.02,
+      "60": 0.01
+    },
+    "stoploss": {
+      "stoploss": -0.1
+    },
+    "trailing": {
+      "trailing_stop": false,
+      "trailing_stop_positive": null,
+      "trailing_stop_positive_offset": 0.0,
+      "trailing_only_offset_is_reached": false
+    },
+    "max_open_trades": {
+      "max_open_trades": 3
+    },
+    "buy": {
+      "buy_adx_level": 27,
+      "buy_ema_period": 33,
+      "buy_rsi_level": 42
+    },
+    "sell": {
+      "sell_rsi_level": 70
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2025-07-29 20:53:38.316611+00:00"
+}
