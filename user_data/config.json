@@ -39,6 +39,9 @@
         "ccxt_config": {},
         "ccxt_async_config": {},
         "pair_whitelist": [
+            "BTC/USDT",
+            "ETH/USDT",
+            "XRP/USDT"
         ],
         "pair_blacklist": [
             "BNB/.*"
@@ -46,11 +49,7 @@
     },
     "pairlists": [
         {
-            "method": "VolumePairList",
-            "number_assets": 20,
-            "sort_key": "quoteVolume",
-            "min_value": 0,
-            "refresh_period": 1800
+            "method": "StaticPairList"
         }
     ],
     "telegram": {

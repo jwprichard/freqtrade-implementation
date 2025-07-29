@@ -403,3 +403,447 @@
 2025-07-28 23:40:01,015 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:40:00 > 2025-07-28T23:39:59.962). This usually suggests a problem with time synchronization.
 2025-07-28 23:40:01,017 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:40:00 > 2025-07-28T23:39:59.961). This usually suggests a problem with time synchronization.
 2025-07-28 23:40:06,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:41:06,147 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:42:06,293 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:43:06,441 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:44:06,589 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:45:01,016 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:45:00 > 2025-07-28T23:44:59.973). This usually suggests a problem with time synchronization.
+2025-07-28 23:45:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:45:00 > 2025-07-28T23:44:59.973). This usually suggests a problem with time synchronization.
+2025-07-28 23:45:11,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:46:11,148 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:46:46,825 - VolumePairList - INFO - Pair BNB/USDT in your blacklist. Removing it from whitelist...
+2025-07-28 23:47:11,301 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:48:11,449 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:49:11,604 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:50:01,017 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:50:00 > 2025-07-28T23:49:59.970). This usually suggests a problem with time synchronization.
+2025-07-28 23:50:01,018 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:50:00 > 2025-07-28T23:49:59.969). This usually suggests a problem with time synchronization.
+2025-07-28 23:50:16,073 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:51:16,217 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:52:16,367 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:53:16,512 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:54:16,663 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:55:01,015 - freqtrade.exchange.exchange_ws - WARNING - ETH/USDT, 5m - Candle date > last refresh (2025-07-28T23:55:00 > 2025-07-28T23:54:59.979). This usually suggests a problem with time synchronization.
+2025-07-28 23:55:01,016 - freqtrade.exchange.exchange_ws - WARNING - BTC/USDT, 5m - Candle date > last refresh (2025-07-28T23:55:00 > 2025-07-28T23:54:59.979). This usually suggests a problem with time synchronization.
+2025-07-28 23:55:21,072 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:56:21,220 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:57:21,364 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:58:21,509 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-28 23:59:21,654 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 00:00:26,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 00:01:26,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 00:02:01,784 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2025-07-29 00:02:01,789 - freqtrade.exchange.exchange_ws - INFO - OP/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,790 - freqtrade.exchange.exchange_ws - INFO - FDUSD/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,791 - freqtrade.exchange.exchange_ws - INFO - HBAR/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,792 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,792 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,793 - freqtrade.exchange.exchange_ws - INFO - SUI/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,793 - freqtrade.exchange.exchange_ws - INFO - PEPE/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,794 - freqtrade.exchange.exchange_ws - INFO - ADA/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,794 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,795 - freqtrade.exchange.exchange_ws - INFO - TRX/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,796 - freqtrade.exchange.exchange_ws - INFO - BONK/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,796 - freqtrade.exchange.exchange_ws - INFO - USDC/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,796 - freqtrade.exchange.exchange_ws - INFO - DOGE/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,797 - freqtrade.exchange.exchange_ws - INFO - ENA/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,797 - freqtrade.exchange.exchange_ws - INFO - SOL/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,798 - freqtrade.exchange.exchange_ws - INFO - PENGU/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,798 - freqtrade.exchange.exchange_ws - INFO - BANANAS31/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,798 - freqtrade.exchange.exchange_ws - INFO - AVAX/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,799 - freqtrade.exchange.exchange_ws - INFO - ERA/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:01,799 - freqtrade.exchange.exchange_ws - INFO - CAKE/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 00:02:02,052 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,082 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,083 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,084 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,086 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,087 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,088 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,090 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,091 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,092 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,094 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,095 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,096 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,098 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,099 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,100 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,102 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,103 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,104 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:02,106 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 00:02:26,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 00:03:26,083 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 00:03:55,655 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2025-07-29 00:03:55,655 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2025-07-29 00:03:55,656 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2025-07-29 00:03:55,660 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "4 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2025-07-29 00:03:55,662 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2025-07-29 00:03:55,663 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2025-07-29 00:03:55,664 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2025-07-29 00:03:55,734 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(f3327fd6, ('172.18.0.1', 56360))
+2025-07-29 00:03:55,735 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(e221d869, ('172.18.0.1', 56372))
+2025-07-29 00:03:55,736 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(41471906, ('172.18.0.1', 56364))
+2025-07-29 00:03:55,839 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.telegram ...
+2025-07-29 00:03:55,840 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2025-07-29 00:03:56,495 - freqtrade - INFO - SIGINT received, aborting ...
