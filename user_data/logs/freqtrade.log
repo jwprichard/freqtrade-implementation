@@ -847,3 +847,1580 @@ aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing tr
 2025-07-29 00:03:55,839 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.telegram ...
 2025-07-29 00:03:55,840 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
 2025-07-29 00:03:56,495 - freqtrade - INFO - SIGINT received, aborting ...
+2025-07-29 21:21:38,388 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:21:38,389 - root - INFO - Logfile configured
+2025-07-29 21:21:38,390 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:21:38,390 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:21:38,391 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:21:38,391 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:21:38,392 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:21:38,392 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:21:38,404 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:21:38,405 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:21:38,406 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:21:38,417 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:21:38,418 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:21:38,435 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:21:38,435 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:21:38,436 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:21:38,437 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:21:38,437 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:21:38,437 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:21:38,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:21:38,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:21:38,438 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:21:38,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:21:38,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:21:38,439 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:21:38,440 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:21:38,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:21:38,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:21:38,441 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:21:38,442 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:21:38,442 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:21:38,442 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:21:38,443 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:21:38,443 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:21:38,443 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:21:38,444 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:21:38,444 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:21:38,444 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:21:38,445 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:21:38,445 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:21:38,445 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:21:38,448 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:21:38,450 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:21:41,592 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:21:41,593 - root - INFO - Logfile configured
+2025-07-29 21:21:41,593 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:21:41,594 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:21:41,594 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:21:41,595 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:21:41,595 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:21:41,595 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:21:41,604 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:21:41,605 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:21:41,606 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:21:41,617 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:21:41,617 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:21:41,633 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:21:41,634 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:21:41,635 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:21:41,635 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:21:41,636 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:21:41,636 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:21:41,636 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:21:41,637 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:21:41,637 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:21:41,637 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:21:41,638 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:21:41,638 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:21:41,638 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:21:41,639 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:21:41,639 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:21:41,639 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:21:41,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:21:41,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:21:41,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:21:41,640 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:21:41,641 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:21:41,641 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:21:41,641 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:21:41,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:21:41,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:21:41,642 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:21:41,643 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:21:41,643 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:21:41,645 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:21:41,647 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:21:44,799 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:21:44,799 - root - INFO - Logfile configured
+2025-07-29 21:21:44,800 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:21:44,800 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:21:44,800 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:21:44,801 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:21:44,801 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:21:44,801 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:21:44,811 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:21:44,811 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:21:44,812 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:21:44,823 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:21:44,824 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:21:44,841 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:21:44,841 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:21:44,842 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:21:44,843 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:21:44,843 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:21:44,843 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:21:44,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:21:44,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:21:44,844 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:21:44,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:21:44,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:21:44,845 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:21:44,846 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:21:44,846 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:21:44,847 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:21:44,847 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:21:44,847 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:21:44,848 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:21:44,848 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:21:44,848 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:21:44,849 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:21:44,849 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:21:44,849 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:21:44,850 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:21:44,850 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:21:44,850 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:21:44,850 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:21:44,851 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:21:44,853 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:21:44,855 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:21:48,203 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:21:48,204 - root - INFO - Logfile configured
+2025-07-29 21:21:48,204 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:21:48,205 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:21:48,205 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:21:48,205 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:21:48,206 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:21:48,206 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:21:48,216 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:21:48,216 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:21:48,217 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:21:48,227 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:21:48,228 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:21:48,245 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:21:48,246 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:21:48,247 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:21:48,247 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:21:48,247 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:21:48,248 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:21:48,248 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:21:48,248 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:21:48,249 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:21:48,249 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:21:48,249 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:21:48,250 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:21:48,250 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:21:48,250 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:21:48,251 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:21:48,251 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:21:48,251 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:21:48,252 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:21:48,252 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:21:48,252 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:21:48,253 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:21:48,253 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:21:48,253 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:21:48,254 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:21:48,254 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:21:48,254 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:21:48,255 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:21:48,255 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:21:48,258 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:21:48,260 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:21:52,076 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:21:52,077 - root - INFO - Logfile configured
+2025-07-29 21:21:52,077 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:21:52,078 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:21:52,078 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:21:52,079 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:21:52,079 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:21:52,079 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:21:52,089 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:21:52,090 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:21:52,091 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:21:52,100 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:21:52,101 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:21:52,119 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:21:52,119 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:21:52,120 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:21:52,121 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:21:52,121 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:21:52,121 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:21:52,122 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:21:52,122 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:21:52,122 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:21:52,123 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:21:52,123 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:21:52,123 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:21:52,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:21:52,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:21:52,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:21:52,124 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:21:52,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:21:52,125 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:21:52,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:21:52,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:21:52,126 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:21:52,127 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:21:52,127 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:21:52,128 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:21:52,128 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:21:52,128 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:21:52,129 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:21:52,129 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:21:52,132 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:21:52,134 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:21:56,827 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:21:56,828 - root - INFO - Logfile configured
+2025-07-29 21:21:56,828 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:21:56,829 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:21:56,829 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:21:56,829 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:21:56,830 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:21:56,830 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:21:56,840 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:21:56,841 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:21:56,842 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:21:56,852 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:21:56,853 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:21:56,869 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:21:56,870 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:21:56,871 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:21:56,871 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:21:56,872 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:21:56,872 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:21:56,872 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:21:56,873 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:21:56,873 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:21:56,873 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:21:56,874 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:21:56,874 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:21:56,874 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:21:56,875 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:21:56,875 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:21:56,875 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:21:56,876 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:21:56,876 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:21:56,876 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:21:56,876 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:21:56,877 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:21:56,877 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:21:56,877 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:21:56,878 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:21:56,878 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:21:56,878 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:21:56,879 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:21:56,879 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:21:56,881 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:21:56,884 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:22:03,131 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:22:03,132 - root - INFO - Logfile configured
+2025-07-29 21:22:03,132 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:22:03,133 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:22:03,133 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:22:03,133 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:22:03,134 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:22:03,134 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:22:03,143 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:22:03,144 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:22:03,145 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:22:03,155 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:22:03,156 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:22:03,173 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:22:03,174 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:22:03,175 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:22:03,175 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:22:03,176 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:22:03,176 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:22:03,177 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:22:03,177 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:22:03,177 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:22:03,178 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:22:03,178 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:22:03,178 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:22:03,179 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:22:03,179 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:22:03,179 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:22:03,180 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:22:03,180 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:22:03,180 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:22:03,181 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:22:03,181 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:22:03,181 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:22:03,182 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:22:03,182 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:22:03,182 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:22:03,183 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:22:03,183 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:22:03,183 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:22:03,184 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:22:03,186 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:22:03,188 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:22:12,580 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:22:12,580 - root - INFO - Logfile configured
+2025-07-29 21:22:12,581 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:22:12,581 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:22:12,582 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:22:12,582 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:22:12,582 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:22:12,583 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:22:12,591 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:22:12,592 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:22:12,593 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:22:12,603 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:22:12,603 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:22:12,619 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:22:12,620 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:22:12,621 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:22:12,621 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:22:12,621 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:22:12,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:22:12,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:22:12,622 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:22:12,623 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:22:12,623 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:22:12,623 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:22:12,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:22:12,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:22:12,624 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:22:12,625 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:22:12,625 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:22:12,625 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:22:12,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:22:12,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:22:12,626 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:22:12,627 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:22:12,627 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:22:12,627 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:22:12,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:22:12,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:22:12,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:22:12,628 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:22:12,629 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:22:12,631 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:22:12,633 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:22:28,434 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:22:28,434 - root - INFO - Logfile configured
+2025-07-29 21:22:28,435 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:22:28,435 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:22:28,435 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:22:28,436 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:22:28,436 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:22:28,437 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:22:28,446 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:22:28,446 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:22:28,447 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:22:28,457 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:22:28,458 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:22:28,474 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:22:28,475 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:22:28,476 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:22:28,476 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:22:28,477 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:22:28,477 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:22:28,477 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:22:28,478 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:22:28,478 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:22:28,478 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:22:28,479 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:22:28,479 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:22:28,479 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:22:28,480 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:22:28,480 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:22:28,480 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:22:28,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:22:28,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:22:28,481 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:22:28,482 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:22:28,482 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:22:28,482 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:22:28,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:22:28,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:22:28,483 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:22:28,484 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:22:28,484 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:22:28,484 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:22:28,487 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:22:28,489 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:22:57,212 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:22:57,213 - root - INFO - Logfile configured
+2025-07-29 21:22:57,213 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:22:57,214 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:22:57,214 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:22:57,214 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:22:57,215 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:22:57,215 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:22:57,224 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:22:57,225 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:22:57,226 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:22:57,236 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:22:57,237 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:22:57,254 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:22:57,254 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:22:57,255 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:22:57,255 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:22:57,256 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:22:57,256 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:22:57,256 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:22:57,257 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:22:57,257 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:22:57,257 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:22:57,258 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:22:57,258 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:22:57,258 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:22:57,259 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:22:57,259 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:22:57,259 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:22:57,260 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:22:57,260 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:22:57,260 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:22:57,260 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:22:57,261 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:22:57,261 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:22:57,261 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:22:57,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:22:57,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:22:57,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:22:57,262 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:22:57,263 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:22:57,265 - freqtrade.configuration.config_validation - CRITICAL - Invalid configuration. Reason: 'username' is a required property
+
+Failed validating 'required' in schema['properties']['api_server']:
+    {'description': 'API server settings.',
+     'type': 'object',
+     'properties': {'enabled': {'description': 'Whether the API server is '
+                                               'enabled.',
+                                'type': 'boolean'},
+                    'listen_ip_address': {'description': 'IP address the '
+                                                         'API server '
+                                                         'listens on.',
+                                          'format': 'ipv4'},
+                    'listen_port': {'description': 'Port the API server '
+                                                   'listens on.',
+                                    'type': 'integer',
+                                    'minimum': 1024,
+                                    'maximum': 65535},
+                    'username': {'description': 'Username for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'password': {'description': 'Password for API server '
+                                                'authentication.',
+                                 'type': 'string'},
+                    'ws_token': {'description': 'WebSocket token for API '
+                                                'server.',
+                                 'type': ['string', 'array'],
+                                 'items': {'type': 'string'}},
+                    'jwt_secret_key': {'description': 'Secret key for JWT '
+                                                      'authentication.',
+                                       'type': 'string'},
+                    'CORS_origins': {'description': 'List of allowed CORS '
+                                                    'origins.',
+                                     'type': 'array',
+                                     'items': {'type': 'string'}},
+                    'verbosity': {'description': 'Logging verbosity level.',
+                                  'type': 'string',
+                                  'enum': ['error', 'info']}},
+     'required': ['enabled',
+                  'listen_ip_address',
+                  'listen_port',
+                  'username',
+                  'password']}
+
+On instance['api_server']:
+    {'enabled': True,
+     'listen_ip_address': '0.0.0.0',
+     'listen_port': 8080,
+     'verbosity': 'error',
+     'jwt_secret_key': 'changeme'}
+2025-07-29 21:22:57,268 - freqtrade - ERROR - Fatal exception!
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/main.py", line 47, in main
+    return_code = args["func"](args)
+  File "/freqtrade/freqtrade/commands/trade_commands.py", line 24, in start_trading
+    worker = Worker(args)
+  File "/freqtrade/freqtrade/worker.py", line 39, in __init__
+    self._init(False)
+    ~~~~~~~~~~^^^^^^^
+  File "/freqtrade/freqtrade/worker.py", line 55, in _init
+    self.freqtrade = FreqtradeBot(self._config)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/freqtradebot.py", line 99, in __init__
+    validate_config_consistency(config)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 97, in validate_config_consistency
+    validate_config_schema(conf, preliminary=preliminary)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/freqtrade/freqtrade/configuration/config_validation.py", line 69, in validate_config_schema
+    raise ValidationError(best_match(Draft4Validator(conf_schema).iter_errors(conf)).message)
+jsonschema.exceptions.ValidationError: 'username' is a required property
+2025-07-29 21:26:13,558 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:26:13,559 - root - INFO - Logfile configured
+2025-07-29 21:26:13,560 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:26:13,560 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:26:13,561 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:26:13,561 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:26:13,562 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:26:13,562 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:26:13,572 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:26:13,572 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:26:13,573 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:26:13,584 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:26:13,585 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:26:13,603 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:26:13,603 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:26:13,604 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:26:13,605 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:26:13,605 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:26:13,605 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:26:13,606 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:26:13,606 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:26:13,606 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:26:13,607 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:26:13,607 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:26:13,607 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:26:13,608 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:26:13,608 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:26:13,608 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:26:13,609 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:26:13,609 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:26:13,610 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:26:13,610 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:26:13,611 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:26:13,611 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:26:13,611 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:26:13,612 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:26:13,612 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:26:13,613 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:26:13,613 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:26:13,613 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:26:13,614 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:26:13,616 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-07-29 21:26:13,616 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.91
+2025-07-29 21:26:13,644 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2025-07-29 21:26:15,640 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2025-07-29 21:26:15,670 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:26:15,953 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-07-29 21:26:16,116 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-07-29 21:26:16,117 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-07-29 21:26:16,153 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-07-29 21:26:16,153 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-07-29 21:26:16,170 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 3 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT']
+2025-07-29 21:26:16,171 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.02s
+2025-07-29 21:26:16,172 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_adx_level = 27
+2025-07-29 21:26:16,172 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_period = 33
+2025-07-29 21:26:16,172 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_level = 42
+2025-07-29 21:26:16,173 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_rsi_level = 70
+2025-07-29 21:26:16,173 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-07-29 21:26:16,174 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-07-29 21:26:16,174 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-07-29 21:26:16,175 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-07-29 21:26:16,192 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-07-29 21:26:16,193 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `1000 USDT`\n*Minimum ROI:* `{'0': 0.04, '30': 0.02, '60': 0.01}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `momentum_crossover_v3_strategy`"}
+2025-07-29 21:26:16,193 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-07-29 21:26:16,197 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=1, pair=OP/USDT, amount=258.82000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-29 21:26:16,197 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=2, pair=ERA/USDT, amount=155.40000000, is_short=False, leverage=1.0, open_rate=1.27400000, open_since=2025-07-28 21:30:02)
+2025-07-29 21:26:16,198 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-29 21:26:16,198 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02)
+2025-07-29 21:26:17,345 - freqtrade.freqtradebot - INFO - Exit for TRX/USDT detected. Reason: roi
+2025-07-29 21:26:17,348 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:26:17,527 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': exit, 'trade_id': 3, 'exchange': 'Binance', 'pair': 'TRX/USDT', 'leverage': 1.0, 'direction': 'Long', 'gain': 'profit', 'limit': 0.3349, 'order_rate': 0.3349, 'order_type': 'limit', 'amount': 617.3, 'open_rate': 0.3207, 'close_rate': 0.3349, 'current_rate': 0.3349, 'profit_amount': 8.36095812, 'profit_ratio': 0.04219167, 'buy_tag': '', 'enter_tag': '', 'exit_reason': 'roi', 'open_date': datetime.datetime(2025, 7, 28, 22, 55, 2, 624467, tzinfo=datetime.timezone.utc), 'close_date': datetime.datetime(2025, 7, 29, 21, 26, 17, 527620, tzinfo=datetime.timezone.utc), 'stake_amount': 197.96811, 'stake_currency': 'USDT', 'base_currency': 'TRX', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'sub_trade': False, 'cumulative_profit': 0.0, 'final_profit_ratio': None, 'is_final_exit': False}
+2025-07-29 21:26:17,722 - freqtrade.freqtradebot - INFO - Exit for BONK/USDT detected. Reason: stop_loss
+2025-07-29 21:26:17,725 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:26:17,902 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': exit, 'trade_id': 4, 'exchange': 'Binance', 'pair': 'BONK/USDT', 'leverage': 1.0, 'direction': 'Long', 'gain': 'loss', 'limit': 2.83e-05, 'order_rate': 2.83e-05, 'order_type': 'limit', 'amount': 6152889.0, 'open_rate': 3.218e-05, 'close_rate': 2.83e-05, 'current_rate': 2.83e-05, 'profit_amount': -24.24533605, 'profit_ratio': -0.12232888, 'buy_tag': '', 'enter_tag': '', 'exit_reason': 'stop_loss', 'open_date': datetime.datetime(2025, 7, 28, 23, 0, 2, 888367, tzinfo=datetime.timezone.utc), 'close_date': datetime.datetime(2025, 7, 29, 21, 26, 17, 902454, tzinfo=datetime.timezone.utc), 'stake_amount': 197.99996802, 'stake_currency': 'USDT', 'base_currency': 'BONK', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'sub_trade': False, 'cumulative_profit': 0.0, 'final_profit_ratio': None, 'is_final_exit': False}
+2025-07-29 21:26:17,903 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02)
+2025-07-29 21:26:17,913 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02) [sell]: 0.17412676 USDT - rate: 0.001
+2025-07-29 21:26:17,913 - freqtrade.persistence.trade_model - INFO - Updating trade (id=4) ...
+2025-07-29 21:26:17,914 - freqtrade.persistence.trade_model - INFO - LIMIT_SELL has been fulfilled for Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=2025-07-28 23:00:02).
+2025-07-29 21:26:17,915 - freqtrade.persistence.trade_model - INFO - Marking Trade(id=4, pair=BONK/USDT, amount=6152889.00000000, is_short=False, leverage=1.0, open_rate=0.00003218, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2025-07-29 21:26:17,930 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:26:17,932 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': exit_fill, 'trade_id': 4, 'exchange': 'Binance', 'pair': 'BONK/USDT', 'leverage': 1.0, 'direction': 'Long', 'gain': 'loss', 'limit': 2.83e-05, 'order_rate': 2.83e-05, 'order_type': 'limit', 'amount': 6152889.0, 'open_rate': 3.218e-05, 'close_rate': 2.83e-05, 'current_rate': None, 'profit_amount': -24.24533605, 'profit_ratio': -0.12232888, 'buy_tag': '', 'enter_tag': '', 'exit_reason': 'stop_loss', 'open_date': datetime.datetime(2025, 7, 28, 23, 0, 2, 888367, tzinfo=datetime.timezone.utc), 'close_date': datetime.datetime(2025, 7, 29, 21, 26, 17, 902000, tzinfo=datetime.timezone.utc), 'stake_amount': 197.99996802, 'stake_currency': 'USDT', 'base_currency': 'BONK', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'sub_trade': False, 'cumulative_profit': -24.24533605, 'final_profit_ratio': -0.12232888306637685, 'is_final_exit': True}
+2025-07-29 21:26:17,943 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:26:21,199 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:26:21,395 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-29 21:26:26,403 - freqtrade.freqtradebot - INFO - Found open order for Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02)
+2025-07-29 21:26:26,412 - freqtrade.freqtradebot - INFO - Fee for Trade Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02) [sell]: 0.20673377 USDT - rate: 0.001
+2025-07-29 21:26:26,413 - freqtrade.persistence.trade_model - INFO - Updating trade (id=3) ...
+2025-07-29 21:26:26,413 - freqtrade.persistence.trade_model - INFO - LIMIT_SELL has been fulfilled for Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=2025-07-28 22:55:02).
+2025-07-29 21:26:26,414 - freqtrade.persistence.trade_model - INFO - Marking Trade(id=3, pair=TRX/USDT, amount=617.30000000, is_short=False, leverage=1.0, open_rate=0.32070000, open_since=closed) as closed as the trade is fulfilled and found no open orders for it.
+2025-07-29 21:26:26,424 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:26:26,426 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': exit_fill, 'trade_id': 3, 'exchange': 'Binance', 'pair': 'TRX/USDT', 'leverage': 1.0, 'direction': 'Long', 'gain': 'profit', 'limit': 0.3349, 'order_rate': 0.3349, 'order_type': 'limit', 'amount': 617.3, 'open_rate': 0.3207, 'close_rate': 0.3349, 'current_rate': None, 'profit_amount': 8.36095812, 'profit_ratio': 0.04219167, 'buy_tag': '', 'enter_tag': '', 'exit_reason': 'roi', 'open_date': datetime.datetime(2025, 7, 28, 22, 55, 2, 624467, tzinfo=datetime.timezone.utc), 'close_date': datetime.datetime(2025, 7, 29, 21, 26, 26, 404000, tzinfo=datetime.timezone.utc), 'stake_amount': 197.96811, 'stake_currency': 'USDT', 'base_currency': 'TRX', 'quote_currency': 'USDT', 'fiat_currency': 'USD', 'sub_trade': False, 'cumulative_profit': 8.36095812, 'final_profit_ratio': 0.04219167175200851, 'is_final_exit': True}
+2025-07-29 21:26:39,721 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(201fbefa, ('172.18.0.1', 36676))
+2025-07-29 21:26:39,781 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(bf629b8f, ('172.18.0.1', 36678))
+2025-07-29 21:26:39,824 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(84d3230f, ('172.18.0.1', 36692))
+2025-07-29 21:27:26,193 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:27:42,761 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2025-07-29 21:27:42,762 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2025-07-29 21:27:42,762 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2025-07-29 21:27:42,765 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "2 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2025-07-29 21:27:42,765 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2025-07-29 21:27:42,766 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2025-07-29 21:27:42,766 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2025-07-29 21:27:42,864 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(bf629b8f, ('172.18.0.1', 36678))
+2025-07-29 21:27:42,865 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(201fbefa, ('172.18.0.1', 36676))
+2025-07-29 21:27:42,866 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(84d3230f, ('172.18.0.1', 36692))
+2025-07-29 21:27:42,965 - freqtrade.exchange.exchange_ws - INFO - Resetting WS connections.
+2025-07-29 21:27:42,966 - freqtrade.exchange.exchange_ws - INFO - OP/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:42,967 - freqtrade.exchange.exchange_ws - INFO - TRX/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:42,967 - freqtrade.exchange.exchange_ws - INFO - BONK/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:42,968 - freqtrade.exchange.exchange_ws - INFO - ERA/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:42,968 - freqtrade.exchange.exchange_ws - INFO - ETH/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:42,969 - freqtrade.exchange.exchange_ws - INFO - XRP/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:42,969 - freqtrade.exchange.exchange_ws - INFO - BTC/USDT, 5m, spot - Task finished - cancelled
+2025-07-29 21:27:43,221 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,228 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,229 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,231 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,232 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,234 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,236 - freqtrade.exchange.exchange_ws - ERROR - Exception in _unwatch_ohlcv
+Traceback (most recent call last):
+  File "/freqtrade/freqtrade/exchange/exchange_ws.py", line 144, in _unwatch_ohlcv
+    await self._ccxt_object.un_watch_ohlcv_for_symbols([[pair, timeframe]])
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/pro/binance.py", line 1454, in un_watch_ohlcv_for_symbols
+    return await self.watch_multiple(url, messageHashes, self.extend(request, params), messageHashes, subscribe)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/exchange.py", line 465, in send_message
+    await client.send(message)
+  File "/home/ftuser/.local/lib/python3.13/site-packages/ccxt/async_support/base/ws/client.py", line 286, in send
+    return await self.connection.send_str(send_msg)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/client_ws.py", line 245, in send_str
+    await self._writer.send_frame(
+        data.encode("utf-8"), WSMsgType.TEXT, compress=compress
+    )
+  File "/home/ftuser/.local/lib/python3.13/site-packages/aiohttp/_websocket/writer.py", line 72, in send_frame
+    raise ClientConnectionResetError("Cannot write to closing transport")
+aiohttp.client_exceptions.ClientConnectionResetError: Cannot write to closing transport
+2025-07-29 21:27:43,920 - freqtrade - INFO - SIGINT received, aborting ...
+2025-07-29 21:28:05,981 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:28:05,982 - root - INFO - Logfile configured
+2025-07-29 21:28:05,982 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:28:05,983 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:28:05,984 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:28:05,985 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:28:05,986 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:28:05,986 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:28:05,998 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:28:05,999 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:28:06,000 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:28:06,011 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:28:06,011 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:28:06,030 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:28:06,030 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:28:06,031 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:28:06,032 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:28:06,032 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:28:06,033 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:28:06,034 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:28:06,034 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:28:06,035 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:28:06,036 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:28:06,036 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:28:06,037 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:28:06,037 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:28:06,038 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:28:06,038 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:28:06,039 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:28:06,040 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:28:06,040 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:28:06,041 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:28:06,041 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:28:06,042 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:28:06,042 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:28:06,043 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:28:06,043 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:28:06,044 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:28:06,044 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:28:06,045 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:28:06,045 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:28:06,048 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-07-29 21:28:06,049 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.91
+2025-07-29 21:28:06,083 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2025-07-29 21:28:08,145 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2025-07-29 21:28:08,175 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:28:08,387 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-07-29 21:28:08,538 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-07-29 21:28:08,538 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-07-29 21:28:08,561 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-07-29 21:28:08,562 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-07-29 21:28:08,580 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 3 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT']
+2025-07-29 21:28:08,580 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.02s
+2025-07-29 21:28:08,581 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_adx_level = 27
+2025-07-29 21:28:08,582 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_period = 33
+2025-07-29 21:28:08,582 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_level = 42
+2025-07-29 21:28:08,583 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_rsi_level = 70
+2025-07-29 21:28:08,584 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-07-29 21:28:08,585 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-07-29 21:28:08,585 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-07-29 21:28:08,586 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-07-29 21:28:08,605 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-07-29 21:28:08,606 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `1000 USDT`\n*Minimum ROI:* `{'0': 0.04, '30': 0.02, '60': 0.01}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `momentum_crossover_v3_strategy`"}
+2025-07-29 21:28:08,606 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-07-29 21:28:08,612 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=1, pair=OP/USDT, amount=258.82000000, is_short=False, leverage=1.0, open_rate=0.76500000, open_since=2025-07-28 20:55:02)
+2025-07-29 21:28:08,612 - freqtrade.persistence.trade_model - INFO - Found open trade: Trade(id=2, pair=ERA/USDT, amount=155.40000000, is_short=False, leverage=1.0, open_rate=1.27400000, open_since=2025-07-28 21:30:02)
+2025-07-29 21:28:13,613 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:28:17,039 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(c2588bac, ('172.18.0.1', 49274))
+2025-07-29 21:28:17,104 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(c2a5337e, ('172.18.0.1', 49286))
+2025-07-29 21:28:17,155 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(a7a7fcab, ('172.18.0.1', 49300))
+2025-07-29 21:28:24,759 - freqtrade.commands.trade_commands - INFO - worker found ... calling exit
+2025-07-29 21:28:24,759 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'process died'}
+2025-07-29 21:28:24,760 - freqtrade.freqtradebot - INFO - Cleaning up modules ...
+2025-07-29 21:28:24,763 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': "2 open trades active.\n\nHandle these trades manually on Binance, or '/start' the bot again and use '/stopentry' to handle open trades gracefully. \nNote: Trades are simulated (dry run)."}
+2025-07-29 21:28:24,764 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc modules ...
+2025-07-29 21:28:24,764 - freqtrade.rpc.rpc_manager - INFO - Cleaning up rpc.apiserver ...
+2025-07-29 21:28:24,765 - freqtrade.rpc.api_server.webserver - INFO - Stopping API Server
+2025-07-29 21:28:24,829 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(c2588bac, ('172.18.0.1', 49274))
+2025-07-29 21:28:24,830 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(c2a5337e, ('172.18.0.1', 49286))
+2025-07-29 21:28:24,831 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(a7a7fcab, ('172.18.0.1', 49300))
+2025-07-29 21:36:43,721 - freqtrade.loggers - INFO - Enabling colorized output.
+2025-07-29 21:36:43,723 - root - INFO - Logfile configured
+2025-07-29 21:36:43,724 - freqtrade.loggers - INFO - Verbosity set to 0
+2025-07-29 21:36:43,724 - freqtrade.configuration.configuration - INFO - Runmode set to dry_run.
+2025-07-29 21:36:43,725 - freqtrade.configuration.configuration - INFO - Parameter --db-url detected ...
+2025-07-29 21:36:43,725 - freqtrade.configuration.configuration - INFO - Dry run is enabled
+2025-07-29 21:36:43,726 - freqtrade.configuration.configuration - INFO - Using DB: "sqlite:////freqtrade/user_data/tradesv3.sqlite"
+2025-07-29 21:36:43,726 - freqtrade.configuration.configuration - INFO - Using max_open_trades: 3 ...
+2025-07-29 21:36:43,770 - freqtrade.configuration.configuration - INFO - Using user-data directory: /freqtrade/user_data ...
+2025-07-29 21:36:43,771 - freqtrade.configuration.configuration - INFO - Using data directory: /freqtrade/user_data/data/binance ...
+2025-07-29 21:36:43,772 - freqtrade.exchange.check_exchange - INFO - Checking exchange...
+2025-07-29 21:36:43,782 - freqtrade.exchange.check_exchange - INFO - Exchange "binance" is officially supported by the Freqtrade development team.
+2025-07-29 21:36:43,783 - freqtrade.configuration.configuration - INFO - Using pairlist from configuration.
+2025-07-29 21:36:43,812 - freqtrade.resolvers.iresolver - INFO - Using resolved strategy momentum_crossover_v3_strategy from '/freqtrade/user_data/strategies/momentum_crossover_v3_strategy.py'...
+2025-07-29 21:36:43,812 - freqtrade.strategy.hyper - INFO - Loading parameters from file /freqtrade/user_data/strategies/momentum_crossover_v3_strategy.json
+2025-07-29 21:36:43,813 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_currency' with value in config file: USDT.
+2025-07-29 21:36:43,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'stake_amount' with value in config file: 1000.
+2025-07-29 21:36:43,814 - freqtrade.resolvers.strategy_resolver - INFO - Override strategy 'max_open_trades' with value in config file: 3.
+2025-07-29 21:36:43,814 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using minimal_roi: {'0': 0.04, '30': 0.02, '60': 0.01}
+2025-07-29 21:36:43,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using timeframe: 5m
+2025-07-29 21:36:43,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stoploss: -0.1
+2025-07-29 21:36:43,815 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop: False
+2025-07-29 21:36:43,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_stop_positive_offset: 0.0
+2025-07-29 21:36:43,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using trailing_only_offset_is_reached: False
+2025-07-29 21:36:43,816 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_custom_stoploss: False
+2025-07-29 21:36:43,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using process_only_new_candles: True
+2025-07-29 21:36:43,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_types: {'entry': 'limit', 'exit': 'limit', 'stoploss': 'limit', 'stoploss_on_exchange': False, 'stoploss_on_exchange_interval': 60}
+2025-07-29 21:36:43,817 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using order_time_in_force: {'entry': 'GTC', 'exit': 'GTC'}
+2025-07-29 21:36:43,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_currency: USDT
+2025-07-29 21:36:43,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using stake_amount: 1000
+2025-07-29 21:36:43,818 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using startup_candle_count: 0
+2025-07-29 21:36:43,819 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using use_exit_signal: True
+2025-07-29 21:36:43,819 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_only: False
+2025-07-29 21:36:43,819 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_roi_if_entry_signal: False
+2025-07-29 21:36:43,820 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using exit_profit_offset: 0.0
+2025-07-29 21:36:43,820 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using disable_dataframe_checks: False
+2025-07-29 21:36:43,820 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using ignore_buying_expired_candle_after: 0
+2025-07-29 21:36:43,821 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using position_adjustment_enable: False
+2025-07-29 21:36:43,821 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_entry_position_adjustment: -1
+2025-07-29 21:36:43,821 - freqtrade.resolvers.strategy_resolver - INFO - Strategy using max_open_trades: 3
+2025-07-29 21:36:43,822 - freqtrade.configuration.config_validation - INFO - Validating configuration ...
+2025-07-29 21:36:43,824 - freqtrade.exchange.exchange - INFO - Instance is running with dry_run enabled
+2025-07-29 21:36:43,824 - freqtrade.exchange.exchange - INFO - Using CCXT 4.4.91
+2025-07-29 21:36:43,853 - freqtrade.exchange.exchange - INFO - Using Exchange "Binance"
+2025-07-29 21:36:45,941 - freqtrade.resolvers.exchange_resolver - INFO - Using resolved exchange 'Binance'...
+2025-07-29 21:36:46,231 - freqtrade.wallets - INFO - Wallets synced.
+2025-07-29 21:36:46,430 - freqtrade.rpc.rpc_manager - INFO - Enabling rpc.api_server
+2025-07-29 21:36:46,588 - freqtrade.rpc.api_server.webserver - INFO - Starting HTTP Server at 0.0.0.0:8080
+2025-07-29 21:36:46,589 - freqtrade.rpc.api_server.webserver - INFO - Starting Local Rest Server.
+2025-07-29 21:36:46,622 - freqtrade.resolvers.iresolver - INFO - Using resolved pairlist StaticPairList from '/freqtrade/freqtrade/plugins/pairlist/StaticPairList.py'...
+2025-07-29 21:36:46,623 - freqtrade.freqtradebot - INFO - Starting initial pairlist refresh
+2025-07-29 21:36:46,639 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 3 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT']
+2025-07-29 21:36:46,640 - freqtrade.freqtradebot - INFO - Initial Pairlist refresh took 0.02s
+2025-07-29 21:36:46,641 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_adx_level = 27
+2025-07-29 21:36:46,641 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_ema_period = 33
+2025-07-29 21:36:46,641 - freqtrade.strategy.hyper - INFO - Strategy Parameter: buy_rsi_level = 42
+2025-07-29 21:36:46,642 - freqtrade.strategy.hyper - INFO - Strategy Parameter: sell_rsi_level = 70
+2025-07-29 21:36:46,642 - freqtrade.strategy.hyper - INFO - No params for protection found, using default values.
+2025-07-29 21:36:46,643 - freqtrade.plugins.protectionmanager - INFO - No protection Handlers defined.
+2025-07-29 21:36:46,643 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': status, 'status': 'running'}
+2025-07-29 21:36:46,643 - freqtrade.worker - INFO - Changing state to: RUNNING
+2025-07-29 21:36:46,670 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': warning, 'status': 'Dry run is enabled. All trades are simulated.'}
+2025-07-29 21:36:46,671 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "*Exchange:* `binance`\n*Stake per trade:* `1000 USDT`\n*Minimum ROI:* `{'0': 0.04, '30': 0.02, '60': 0.01}`\n*Stoploss:* `-0.1`\n*Position adjustment:* `Off`\n*Timeframe:* `5m`\n*Strategy:* `momentum_crossover_v3_strategy`"}
+2025-07-29 21:36:46,671 - freqtrade.rpc.rpc_manager - INFO - Sending rpc message: {'type': startup, 'status': "Searching for USDT pairs to buy and sell based on [{'StaticPairList': 'StaticPairList'}]"}
+2025-07-29 21:36:50,632 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(65fd961a, ('172.18.0.1', 57102))
+2025-07-29 21:36:50,885 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(0829a485, ('172.18.0.1', 57114))
+2025-07-29 21:36:51,674 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:37:56,669 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:39:01,661 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:40:05,997 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:41:05,999 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:42:06,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:43:06,002 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:44:06,006 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:45:11,000 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:46:11,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:47:11,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:48:11,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:49:11,016 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:50:16,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:51:16,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:52:16,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:53:16,020 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:54:16,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:55:21,001 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:56:21,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:57:21,008 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:58:21,014 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 21:59:21,024 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:00:26,004 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:01:26,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:02:26,021 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:03:26,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:04:26,032 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:05:31,003 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:06:31,009 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:07:31,017 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:08:31,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:09:31,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:10:36,007 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:11:36,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:12:36,026 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:13:36,034 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:14:36,044 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:15:41,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:16:41,030 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:17:41,044 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:18:41,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:19:41,060 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:20:46,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:21:46,025 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:22:46,037 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:23:46,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:24:46,056 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:25:51,013 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:26:51,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:27:51,042 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:28:51,057 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:29:51,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:30:56,014 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:31:56,020 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:32:56,027 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:33:56,038 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:34:56,054 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:36:01,019 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:36:44,699 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(0829a485, ('172.18.0.1', 57114))
+2025-07-29 22:36:44,700 - freqtrade.rpc.api_server.ws.channel - INFO - Disconnected from channel - WebSocketChannel(65fd961a, ('172.18.0.1', 57102))
+2025-07-29 22:36:45,620 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(920f899d, ('172.18.0.1', 42196))
+2025-07-29 22:36:45,645 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(6460ae26, ('172.18.0.1', 42210))
+2025-07-29 22:36:45,883 - freqtrade.rpc.api_server.ws.channel - INFO - Connected to channel - WebSocketChannel(72b8ac42, ('172.18.0.1', 42212))
+2025-07-29 22:36:48,538 - freqtrade.plugins.pairlistmanager - INFO - Whitelist with 3 pairs: ['BTC/USDT', 'ETH/USDT', 'XRP/USDT']
+2025-07-29 22:37:01,036 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:38:01,058 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:39:01,074 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:40:06,010 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:41:06,012 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:42:06,029 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:43:06,047 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:44:06,066 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
+2025-07-29 22:45:11,015 - freqtrade.worker - INFO - Bot heartbeat. PID=1, version='2025.6', state='RUNNING'
