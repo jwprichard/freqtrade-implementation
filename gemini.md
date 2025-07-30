@@ -11,6 +11,14 @@ My role in this project is to assist with the following:
     *   Implementing stop-loss and ROI settings.
     *   Using informative pairs for more advanced strategies.
 
+## Session Summaries
+
+At the end of a session, I can create a summary document in the `Gemini Session Summaries` folder. These summaries serve as a record of our work. They are:
+
+*   **Dated and Titled:** For easy chronological ordering and identification.
+*   **A Log of Work:** They provide a detailed account of the key activities, debugging steps, and outcomes of the session.
+*   **A Quick Reference:** They allow you to quickly recall the context and progress of our work together.
+
 ## Key Files
 
 *   `docker-compose.yml`: Defines the services for running Freqtrade.

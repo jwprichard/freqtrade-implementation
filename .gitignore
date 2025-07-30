@@ -1,0 +1,34 @@
+# Freqtrade specific
+/user_data/config.json
+/user_data/tradesv3.sqlite
+/user_data/tradesv3.sqlite-shm
+/user_data/tradesv3.sqlite-wal
+/user_data/backtest_results/*
+!/user_data/backtest_results/.gitkeep
+/user_data/data/*
+!/user_data/data/.gitkeep
+/user_data/hyperopt_results/*
+!/user_data/hyperopt_results/.gitkeep
+/user_data/logs/*
+!/user_data/logs/.gitkeep
+#/user_data/plot/*
+!/user_data/plot/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Databases
+*.sqlite
+*.sqlite3
+*.db
