@@ -11,7 +11,7 @@
 !/user_data/hyperopt_results/.gitkeep
 /user_data/logs/*
 !/user_data/logs/.gitkeep
-/user_data/plot/*
+#/user_data/plot/*
 !/user_data/plot/.gitkeep
 
 # Python
