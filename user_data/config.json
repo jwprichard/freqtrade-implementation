@@ -47,5 +47,41 @@
     "force_entry_enable": false,
     "internals": {
         "process_throttle_secs": 5
+    },
+    "telegram": {
+    "enabled": true,
+    "token": "8383264064:AAHo840AWo564i06E3z_v82EpmzvDxOTggg",
+    "chat_id": "8247986284",
+    "allow_custom_messages": true,
+    "notification_settings": {
+        "status": "silent",
+        "warning": "on",
+        "startup": "off",
+        "entry": "silent",
+        "entry_fill": "on",
+        "entry_cancel": "silent",
+        "exit": {
+            "roi": "silent",
+            "emergency_exit": "on",
+            "force_exit": "on",
+            "exit_signal": "silent",
+            "trailing_stop_loss": "on",
+            "stop_loss": "on",
+            "stoploss_on_exchange": "on",
+            "custom_exit": "silent",  // custom_exit without specifying an exit reason
+            "partial_exit": "on",
+            // "custom_exit_message": "silent",  // Disable individual custom exit reasons
+            "*": "off"  // Disable all other exit reasons
+        },
+        // "exit": "off",  // Simplistic configuration to disable all exit messages
+        "exit_cancel": "on",
+        "exit_fill": "off",
+        "protection_trigger": "off",
+        "protection_trigger_global": "on",
+        "strategy_msg": "off",
+        "show_candle": "off"
+    },
+    "reload": true,
+    "balance_dust_level": 0.01
     }
 }
