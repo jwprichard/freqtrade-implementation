@@ -1,0 +1,7 @@
+# docker-compose.arm.yml
+# This file tells docker-compose to use the ARM-specific Dockerfile.
+services:
+  freqtrade:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.arm

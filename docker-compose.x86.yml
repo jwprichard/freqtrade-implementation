@@ -1,0 +1,7 @@
+# docker-compose.x86.yml
+# This file tells docker-compose to use the x86-specific Dockerfile.
+services:
+  freqtrade:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile.x86

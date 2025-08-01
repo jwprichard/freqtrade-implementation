@@ -55,6 +55,63 @@ By combining the analytical power of Gemini with the robust framework of Freqtra
 *   **Web UI:**
     Access the web interface at `http://localhost:8080`.
 
+### Running on Different Architectures (x86 vs. ARM)
+
+This project is configured to run on both standard x86-64 CPUs (most PCs, laptops, and servers) and ARM64 CPUs (like the Raspberry Pi 4). Because Docker images are specific to a CPU architecture, you must tell Docker Compose which one to use.
+
+There are two ways to do this:
+
+#### Method 1: Specify Configuration Files Manually (Recommended for Beginners)
+
+You can specify the correct override file with the `-f` flag for every `docker-compose` command.
+
+**On your x86 PC:**
+```bash
+# To build and start the container
+docker-compose -f docker-compose.yml -f docker-compose.x86.yml up --build -d
+
+# To view logs
+docker-compose -f docker-compose.yml -f docker-compose.x86.yml logs -f
+
+# To stop the container
+docker-compose -f docker-compose.yml -f docker-compose.x86.yml down
+```
+
+**On your Raspberry Pi (ARM):**
+```bash
+# To build and start the container
+docker-compose -f docker-compose.yml -f docker-compose.arm.yml up --build -d
+
+# To view logs
+docker-compose -f docker-compose.yml -f docker-compose.arm.yml logs -f
+
+# To stop the container
+docker-compose -f docker-compose.yml -f docker-compose.arm.yml down
+```
+
+#### Method 2: Use an Environment Variable (More Convenient)
+
+To avoid typing the `-f` flags every time, you can set the `COMPOSE_FILE` environment variable for your shell session.
+
+**On your x86 PC, run this once:**
+```bash
+export COMPOSE_FILE=docker-compose.yml:docker-compose.x86.yml
+```
+
+**On your Raspberry Pi, run this once:**
+```bash
+export COMPOSE_FILE=docker-compose.yml:docker-compose.arm.yml
+```
+
+After running the appropriate `export` command, you can use the standard `docker-compose` commands for the rest of your terminal session:
+```bash
+# These commands will now work directly
+docker-compose up --build -d
+docker-compose logs -f
+docker-compose down
+```
+**Note:** To make this setting permanent, add the `export` command to your shell's startup file (e.g., `~/.bashrc` or `~/.zshrc`).
+
 ### Development Workflow
 
 1.  **Create a new strategy:**
