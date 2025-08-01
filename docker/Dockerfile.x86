@@ -1,7 +1,0 @@
-# Dockerfile for x86 (amd64) systems
-# Start from the official Freqtrade image for x86
-FROM freqtradeorg/freqtrade:stable
-
-# The following line is a fallback. Uncomment it only if you get an
-# "Illegal instruction" error on an older x86 CPU.
-# RUN pip install --no-cache-dir --force-reinstall --no-binary :all: pandas pyarrow

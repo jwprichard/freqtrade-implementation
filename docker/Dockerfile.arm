@@ -1,8 +1,0 @@
-# Dockerfile for ARM64v8 systems (e.g., Raspberry Pi 4)
-# Start from the official Freqtrade ARM64 image
-FROM freqtradeorg/freqtrade:stable_arm64v8
-
-# The base image is already built for ARM. Uncomment the following line
-# only as a last resort if you still face errors.
-# WARNING: Building these from source on a Raspberry Pi can be VERY slow.
-# RUN pip install --no-cache-dir --force-reinstall --no-binary :all: pandas pyarrow

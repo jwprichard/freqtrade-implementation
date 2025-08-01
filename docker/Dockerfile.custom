@@ -1,5 +1,0 @@
-# Start from the official Freqtrade image
-FROM freqtradeorg/freqtrade:stable
-
-# Re-install pandas and pyarrow to build them for the current architecture
-RUN pip install --no-cache-dir --force-reinstall pandas pyarrow
